@@ -1,5 +1,6 @@
 body {
 	font-family: Arial, sans-serif;
+	background-color: #f2f9f6;
 }
 
 #background-gradient {
@@ -46,7 +47,10 @@ header li {
 }
 
 header li:last-child:before {
-	content: " | ";
+	content: "  |  ";
+	color: gray;
+	margin-right: 10px;
+	margin-left: 10px;
 }
 
 #login:hover {
@@ -58,8 +62,57 @@ header li:last-child:before {
 form {
 	height: 720px;
 	background-color: white;
-	border: 1px solid black;
+	border: 2px solid white;
+	box-shadow: 0 0 4px darkgray;
 }
+
+form ul {
+	margin-top: 50px;
+	margin-left: 50px;
+}
+
+h1 {
+	font-size: 30px;
+	margin-bottom: 50px;
+}
+
+form input, select {
+	margin-top: 10px;
+	margin-bottom: 25px;
+	width: 260px;
+}
+
+#zipcode {
+  width: 74px;
+}
+
+#agree {
+  width: 10px;
+}
+
+#terms {
+	color: #1a76bf;
+}
+
+#terms:hover {
+	text-decoration: underline;
+}
+
+#sign-up {
+	font-size: 12px;
+	width: 65px;
+	height: 30px;
+	background-color: #fa9a0a;
+	color: white;
+	border: 1px solid #FA9608;
+	border-radius: 5%;
+	box-shadow: 0 1px 2px black;
+}
+
+#sign-up:hover {
+	background-color: #e09000;
+}
+
 
 footer {
 	height: 180px;

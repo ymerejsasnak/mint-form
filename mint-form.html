@@ -12,6 +12,7 @@
   	<div id="background-gradient">
   	</div>
 
+
     <header>
     	<a href="#"><img src="mintlogo.png" alt="The Mint.com Logo"></a>
     	<ul>
@@ -20,8 +21,38 @@
     	</ul>
     </header>
 
+
     <form>
+    	<ul>
+        <li><h1>Create a new account</h1>
+
+    	  <li><label for="email">Your Email</label>
+      	<li><input type="email" id="email" required>
+
+        <li><label for="email-confirm">Confirm Email</label>
+      	<li><input type="email" id="email-confirm" required>
+
+      	<li><label for="country">Country</label>
+      	<li><select name="country" required>
+    	  	    <option value="usa">United States</option>
+      		    <option value="elsewhere">Somewhere Else</option>
+      	    </select>
+ 
+      	<li><label for="zipcode">Zip Code</label>
+       	<li><input type="text" id="zipcode" maxlength="5" required>
+
+        <li><label for="password">Password</label>
+      	<li><input type="password" id="password" required>
+
+        <li><label for="password-confirm">Confirm Password</label>
+      	<li><input type="password" id="password-confirm" required>
+
+        <li><input type="checkbox" id="agree" required>Yes, I agree to the Mint <a id="terms" href="#">Terms of Use</a>
+    	
+    	  <li><input type="submit" id="sign-up" value="Sign up">
+      </ul>
     </form>
+
 
     <footer>
     </footer>
