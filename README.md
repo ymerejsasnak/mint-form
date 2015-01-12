@@ -1,4 +1,3 @@
-mint-form
-=========
+##Odin project - copy the mint.com sign-up form
 
-Odin project - copy the mint.com sign-up form
+This one actually looks pretty good.  Still using pixel measurements though...
